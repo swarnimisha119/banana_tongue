@@ -6,6 +6,11 @@ body{
     display: block;
     background-color:var(--minyel);
     margin: 0px;
+    background-image: url('https://cdn.pixabay.com/photo/2021/02/27/20/48/pattern-6055740__340.jpg');
+    background-size: 100% 100%;
+    background-position:100% 100%;
+    background-blend-mode: darken;
+    
 }
 h1{
     text-align: center;
@@ -22,9 +27,13 @@ h1{
     text-align: left;
     width: 550px;
     height: 200px;
-    border-color: var(--primaryb);
+    border-color: darkblue;
     border-bottom-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847__340.jpg');
+    
+    background-position: 100% 100%;
+    color:yellow;
 }
 .out{
     display: block;
@@ -37,10 +46,18 @@ h1{
     text-align: left;
     width: 550px;
     height: 200px;
-    border-color: var(--primaryb);
+    border-color: darkblue;
     border-bottom-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-}
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/27/18/31/minion-1357220__340.jpg');
+    /* background-size: 100% 100%; */
+    background-position: 100 100%;
+    background-blend-mode:luminosity;
+     background-color: var(--primaryb);
+     color:yellow;
+} 
+
+
 .btn-translate{
     padding: 0.5rem 1rem ;
     display: block;
